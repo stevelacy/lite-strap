@@ -1,0 +1,357 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,300);
+
+
+//color vars
+transparent = rgba(0, 0, 0, 0)
+
+black = rgba(0, 0, 0, 1)
+
+white = rgba(250, 250, 250, 1)
+white-shade = rgba(235, 235, 235, 1)
+
+light-grey = rgba(205, 205, 205, 1)
+light-grey-shade = rgba(190, 190, 190, 1)
+grey  = rgba(100, 100, 100, 1)
+grey-shade = rgba(85, 85, 85, 1)
+dark-grey = rgba(50, 50, 50, 1)
+dark-grey-shade = rgba(35, 35, 35, 1)
+
+blue = rgba(52, 152, 219, 1)
+blue-shade = rgba(41, 128, 185, 1)
+
+red = rgba(231, 76, 60, 1)
+red-shade = rgba(192, 57, 43, 1)
+
+green = rgba(101, 157, 50, 1)
+green-shade = rgba(81, 137, 30, 1)
+
+yellow = rgba(241, 196, 15, 1)
+yellow-shade = rgba(243, 156, 18, 1)
+
+//font vars
+font = 'Raleway', sans-serif;
+
+
+*
+  margin 0
+  padding 0
+
+*, *:before, *:after
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  box-sizing border-box
+
+body
+  width 100%
+  font-family font
+  font-size 1.5em
+  font-weight 200
+  color dark-grey-shade
+
+a
+  text-decoration none
+  color green
+  &:hover
+    color green-shade
+    text-decoration underline
+
+input, textarea
+  border 1px solid white
+  outline none
+  padding 10px
+  &:focus
+    border 1px solid white-shade
+input[type='submit']    
+  padding 10px
+  background white-shade
+  border none
+button 
+  padding 10px
+  background white-shade
+  border none
+
+
+img
+  border none
+  outline none
+
+h1, h2, h3, h4, h5, h6
+  font-weight normal
+
+.wrapper
+  position: relative
+  width 100%
+
+.framed
+  padding 1%
+
+.spacer
+  height: 100px
+.margin
+  margin 10px
+
+.large 
+  padding 2%
+  font-size 1.5em
+
+.align-right
+  text-align right
+.align-left
+  text-align left
+.align-center
+  text-align center
+
+
+
+// banner nav and menu
+
+.banner
+  position relative
+  width 100%
+  height 75px
+  padding 10px;
+.fixed-banner
+  position fixed
+  top 0
+  left 0
+  z-index 2
+  box-shadow 0 0 1px light-grey-shade
+.fixed-banner + div
+  margin-top 75px
+.logo
+  position absolute
+  top 20px
+  left 1%
+nav 
+  position absolute
+  right 0
+  top 0
+  li 
+    list-style none
+    display block
+    float left
+    width 100px
+    height 75px
+    padding 20px 10px 0 10px
+    border-bottom 2px solid transparent
+    color black
+    text-align center
+    &:hover
+      color green
+      border-bottom 2px solid green
+
+
+.full-width
+  padding 0
+.box-width
+  padding 1%
+
+
+.content
+  position relative
+  padding 1%
+  box-shadow 0 0 1px light-grey-shade
+
+.footer
+  width 100%
+  min-height 100px
+.box
+  text-align center
+  overflow auto
+  margin-top 1%
+
+.box > div
+  padding 1%
+  border-radius 2px
+
+.box-50
+  width 49.5%
+  margin 0 0 20px .5%
+  min-height 100px
+  display block
+  float left
+  img
+    width 100%
+    max-height 100%
+.box-center
+  width 60%
+  margin-left 20%
+
+.hover
+  &:hover
+    opacity .7
+
+
+// text sizes
+
+.text-small
+  font-size 1em
+.text-med
+  font-size 1.5em
+.text-large
+  font-size 2.5em
+.text-huge
+  font-size 3em
+.text-gigantic
+  font-size 4em
+
+// indents
+
+.indent
+  margin-left 5%
+
+
+//color classes
+
+.white
+  color white
+.white-shade
+  color white-shade
+
+.light-grey
+  color light-grey
+.light-grey-shade
+  color light-grey-shade
+.grey
+  color grey
+.grey-shade
+  color grey-shade
+.dark-grey
+  color dark-grey
+.dark-grey-shade
+  color dark-grey-shade
+
+.blue
+  color blue
+.blue-shade
+  color blue-shade
+
+.red
+  color red
+.red-shade
+  color red-shade
+
+.green
+  color green
+.green-shade
+  color green-shade
+
+.yellow
+  color yellow
+.yellow-shade
+  color yellow-shade
+
+// background classes
+
+.bg-white
+  background white
+.bg-white-shade
+  background white-shade
+
+.bg-light-grey
+  background light-grey
+.bg-light-grey-shade
+  background light-grey-shade
+.bg-grey
+  background grey
+.bg-grey-shade
+  background grey-shade
+.bg-dark-grey
+  background dark-grey
+.bg-dark-grey-shade
+  background dark-grey-shade
+
+.bg-blue
+  background blue
+.bg-blue-shade
+  background blue-shade
+
+.bg-red
+  background red
+.bg-red-shade
+  background red-shade
+
+.bg-green
+  background green
+.bg-green-shade
+  background green-shade
+
+.bg-yellow
+  background yellow
+.bg-yellow-shade
+  background yellow-shade
+
+
+
+
+
+
+
+
+
+
+// Demo divs
+.color-swatches
+  text-align center
+.color-swatches > div
+  width 100px;
+  height 100px
+  display inline-block
+  margin 0 -2px -3px -2px
+
+
+
+
+@media all and (max-width: 500px)
+  body
+    width 100%
+    font-size 1.5em
+    overflow-x hidden
+  textarea
+    min-width 80%
+
+  nav
+    width 100%
+    div
+      position absolute
+      top 10px
+      right 5%
+
+    div:before
+      content "menu"
+
+    ul
+      position relative
+      top 75px
+      width 100%
+
+    li
+      list-style none
+      display inline-block
+      background green
+      width 100%
+      height 75px
+
+  button
+    width 90%
+    margin 1% 5%
+    font-size 1em
+
+  .content
+    overflow-x hidden
+
+  .box
+    overflow-x hidden
+  .box > div
+    padding 1%
+    border-radius 2px
+  .box-50
+    width 100%
+    margin-left 0
+    margin-bottom 1%
+
+  .box-center
+    width 90%
+    margin-left 5%
+
+

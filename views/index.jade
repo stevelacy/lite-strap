@@ -1,0 +1,104 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title Lite-Strap
+    link(rel="stylesheet" href="/css/main.css")
+    script(src='http://code.jquery.com/jquery-2.0.3.min.js')
+    script(src="/js/lite-strap.js")
+
+  body.bg-white-shade
+    .wrapper.framed
+      // remove fixed-banner for a static banner
+      .banner.fixed-banner.bg-white
+        .logo.green Lite-Strap
+        nav
+          a(href='')
+            div
+          ul
+            a(href='#')
+              li First
+            a(href='#')
+              li Second
+            a(href='#')
+              li Third
+      .content.bg-white
+        .spacer
+        .box
+          .box-center
+            p.text-large
+             | A 
+             span.green Lite 
+             | responsive Stylus/CSS framework
+             .spacer
+          .box-50
+            h1 Header 1
+            h2 Header 2
+            h3 Header 3
+            h4 Header 4
+            h5 Header 5
+            h6 Header 6
+            br
+            | Regular font size
+            br
+            a(href='#') Regular link
+            br
+            br
+            h2 Image
+            br
+            img(src='images/spring_s.jpg', alt='')
+          .box-50
+            h2 Buttons
+            br
+            button.button.margin Regular Button
+            button.button.margin.bg-green.white Green Button
+            button.button.margin.bg-red.white Warning Button
+            br
+            br
+            button.button.large.bg-blue.white Large Button
+            .spacer
+            h2 Forms and inputs  
+            .spacer
+            input(type='text', placeholder='Start typing...')
+            br
+            textarea(placeholder='Text area')
+            br
+            input.green(type='submit')
+        br
+        br
+        br
+        br
+        // Color swatches
+        .color-swatches
+          .bg-white(style='border: 1px solid #cdcdcd;')
+          .bg-white-shade
+          .bg-light-grey
+          .bg-light-grey-shade
+          .bg-grey
+          .bg-grey-shade
+          .bg-dark-grey
+          .bg-dark-grey-shade
+          .bg-blue
+          .bg-blue-shade
+          .bg-red
+          .bg-red-shade
+          .bg-yellow
+          .bg-yellow-shade
+          .bg-green
+          .bg-green-shade
+        .box
+          .box-50.bg-blue.align-left
+            | Box Left
+            br
+            | This text has the align-left attribute (text-align left)
+          .box-50.bg-blue
+            | Box Right
+    .footer.bg-dark-grey.align-center
+      br
+      p.white-shade
+        | Lite-Strap
+        br
+        a(href='http://Slacy.me') Slacy.me
+      br
+

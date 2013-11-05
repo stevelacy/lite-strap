@@ -1,0 +1,14 @@
+{
+	"name":"lite-strap",
+	"author": "Steve Lacy - slacy.me",
+	"version": "0.0.1",
+	"description": "A Lite responsive Stylus/CSS framework",
+	"dependencies": {
+		"express":"*",
+		"jade":"*",
+		"stylus":"*",
+		"nib":"*"
+	},
+	"license": "MIT"
+
+}
