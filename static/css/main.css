@@ -37,7 +37,6 @@ textarea:focus {
 }
 input[type='submit'] {
   padding: 10px;
-  background: #ebebeb;
   border: none;
 }
 button {
