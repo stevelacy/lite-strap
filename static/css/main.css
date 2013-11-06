@@ -117,7 +117,6 @@ nav li {
   height: 75px;
   padding: 20px 10px 0 10px;
   border-bottom: 2px solid rgba(0,0,0,0);
-  color: #000;
   text-align: center;
 }
 nav li:hover {
@@ -184,6 +183,9 @@ nav li:hover {
 .indent {
   margin-left: 5%;
 }
+.black {
+  color: #000;
+}
 .white {
   color: #fafafa;
 }
@@ -231,6 +233,9 @@ nav li:hover {
 }
 .yellow-shade {
   color: #f39c12;
+}
+.bg-black {
+  background: #000;
 }
 .bg-white {
   background: #fafafa;
