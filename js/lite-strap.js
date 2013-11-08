@@ -1,12 +1,18 @@
 $(document).ready(function(){
 
 	/* mobile menu slide toggle */
-	if ($(document).width() < 500) {
-	$('nav ul').toggle();
-	$('nav div').click(function(){
-		$('nav ul').slideToggle();
-		return false;
-	});
-
+if ($(document).width() < 500){
+	toggleMenu();
 }
+
+$('nav div').click(function(){
+		toggleMenu();
+		return false;
+})
+
+function toggleMenu(){
+	$('nav ul').slideToggle();	
+}
+
+
 });
