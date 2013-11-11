@@ -158,6 +158,12 @@ nav li:hover {
   width: 100%;
   max-height: 100%;
 }
+.box-25 {
+  width: 24.5%;
+  min-height: 100px;
+  display: block;
+  float: left;
+}
 .box-center {
   width: 60%;
   margin-left: 20%;
@@ -188,6 +194,9 @@ nav li:hover {
 }
 .white {
   color: #fafafa;
+}
+.white-pure {
+  color: #fff;
 }
 .white-shade {
   color: #ebebeb;
@@ -239,6 +248,9 @@ nav li:hover {
 }
 .bg-white {
   background: #fafafa;
+}
+.bg-white-pure {
+  background: #fff;
 }
 .bg-white-shade {
   background: #ebebeb;
