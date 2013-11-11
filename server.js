@@ -29,5 +29,5 @@ app.get('/', function(req, res){
 
 
 
-app.listen(4000);
-console.log(green + 'Lite-Strap \nListening on port 4000' + reset);
+app.listen(3000);
+console.log(green + 'Lite-Strap \nListening on port 3000' + reset);
