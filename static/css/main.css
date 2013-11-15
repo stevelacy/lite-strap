@@ -101,7 +101,6 @@ h6 {
   top: 0;
   left: 0;
   z-index: 2;
-  box-shadow: 0 0 1px #bebebe;
 }
 .fixed-banner + div {
   margin-top: 75px;
@@ -140,7 +139,6 @@ nav li:hover {
 .content {
   position: relative;
   padding: 1%;
-  box-shadow: 0 0 1px #bebebe;
 }
 .footer {
   width: 100%;
