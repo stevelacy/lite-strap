@@ -349,6 +349,7 @@ nav li:hover {
     display: inline-block;
     background: #659d32;
     width: 100%;
+    max-width: 100%;
     height: 75px;
   }
   nav li:hover {
