@@ -1,7 +1,7 @@
 {
 	"name":"lite-strap",
 	"author": "Steve Lacy - slacy.me",
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"description": "A Lite responsive Stylus/CSS framework",
 	"dependencies": {
 		"express":"*",
